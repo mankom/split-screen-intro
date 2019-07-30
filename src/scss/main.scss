@@ -31,14 +31,14 @@
 [data-loading] > *:first-child{
   top: 0;
   left: 0;
-  background: black;
+  background: navy;
 }
 
 [data-loading] > *:last-child{
   bottom: 0;
   right: 0;
   transform: rotate(180deg);
-  background: red;
+  background: pink;
 }
 
 [data-loading] > * > *{
@@ -48,11 +48,11 @@
   height: 10vh;
   top: 45vh;
   right: 0;
-  background: red;
+  background: pink;
 }
 
 [data-loading] > *:last-child > *{
-  background: black;
+  background: navy;
 }
 
 [data-loading="complete"]{
